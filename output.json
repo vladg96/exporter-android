@@ -15,6 +15,10 @@
         {
             "invoke": "radii.pr",
             "write_to": "res/values/exported_radii.xml"
+        },
+        {
+            "invoke": "strings.pr",
+            "write_to": "res/values/exported_strings.xml"
         }
     ]
 }
