@@ -15,7 +15,8 @@
         {{ indentMultilineText(textToken.description, "        ") }} 
     -->
     {[/]}
-    <text name="{[ inject "export_snakecased_token_name" context fullTokenName /]}">{{ textToken.value.text }}dp</text>{[/]} 
+     <text name="{[ inject "export_snakecased_token_name" context fullTokenName /]}">{[ inject "export_text_value" context textToken.value /]}</text>
+    {[/]}
 
 {[/]}
 

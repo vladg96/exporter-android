@@ -18,7 +18,7 @@
         },
         {
             "invoke": "strings.pr",
-            "write_to": "res/values/exported_strings.xml"
+            "write_to": "res/values/exported_text.xml"
         }
     ]
 }
