@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    {[ const brand = ds.currentBrand() /]}
-    {[ const textTokenTree = ds.tokenGroupTreeByType("Text", brand.id) /]}
-    {[ traverse textTokensTree property subgroups into textTokenGroup ]}
-        {[ let fullTokenGroupPath = createFullTokenGroupPath(textTokenGroup) /]}
-        {[ const textTokenInGroups = ds.tokensByGroupId(textTokenGroup.id) /]}
-        {[ for textToken in textTokenInGroups ]}
-            {[ const fullTokenGroupPath = arrayConcat(fullTokenGroupPath, textToken.name) /]}
-            {[ const fullTokenName = arrayJoin(fullTokenPath, " ") /]}
-            {[ if (textToken.description && textToken.description !== "") ]}
-            <!--
-                {{ indentMultilineText(textToken.description, "           " ) }}
-            -->
-            {[/]}
-            <text name="{[ inject "export_snakecased_token_name" context fullTokenName /]}">{[ inject "export_text_value" context textToken.value /]}</text>
+{[ const brand = ds.currentBrand() /]}
+{[ const textTokensTree = ds.tokenGroupTreeByType("Text", brand.id) /]}
+{[ traverse texttextTokensTree property subgroups into textTokenGroup ]}
+  {[ let fullTokenGroupPath = createFullTokenGroupPath(textTokenGroup) /]}
+  {[ const textTokenInGroups = ds.tokensByGroupId(textTokenGroup.id) /]}
+  {[ for textToken in textTokenInGroups ]}
+    {[ const fullTokenPath = arrayConcat(fullTokenGroupPath, textToken.name) /]}
+    {[ const fullTokenName = arrayJoin(fullTokenPath, " ") /]}
 
+    {[ if (textToken.description && textToken.description !== "") ]}
+    <!-- 
+        {{ indentMultilineText(textToken.description, "        ") }} 
+    -->
     {[/]}
+    <text name="{[ inject "export_snakecased_token_name" context fullTokenName /]}">{{ textToken.value.text }}dp</text>{[/]} 
+
+{[/]}
 
 </resources>
