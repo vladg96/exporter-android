@@ -3,7 +3,7 @@
 
 {[ const brand = ds.currentBrand() /]}
 {[ const textTokensTree = ds.tokenGroupTreeByType("Text", brand.id) /]}
-{[ traverse texttextTokensTree property subgroups into textTokenGroup ]}
+{[ traverse textTokensTree property subgroups into textTokenGroup ]}
   {[ let fullTokenGroupPath = createFullTokenGroupPath(textTokenGroup) /]}
   {[ const textTokenInGroups = ds.tokensByGroupId(textTokenGroup.id) /]}
   {[ for textToken in textTokenInGroups ]}
