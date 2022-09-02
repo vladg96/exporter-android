@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+
     {[ const brand = ds.currentBrand() /]}
     {[ const stringTokenTree = ds.tokenGroupTreeByType("String", brand.id) /]}
     {[ traverse stringTokenTree property subgroups into stringTokenGroup /]}
