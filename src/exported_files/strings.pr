@@ -14,9 +14,8 @@
 {{ indentMultilineText(stringToken.description, "") }}
     -->
 	{[/]}
-var {{ fullTokenName }} = "{[ inject "export_string_value" context stringToken.value /]}"
+<string name="{[ inject "export_snakecased_token_name" context fullTokenName /]}">{{ stringToken.value }}</string>{[/]}
 
 	{[/]}
-{[/]}
 
 </resources>

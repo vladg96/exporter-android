@@ -27,7 +27,6 @@ function createFullTokenGroupPath(tokenGroup) {
  * 
  * @param {Array<any>} lhs
  * @param {Array<any>} rhs
- * 
  * @returns {Array<any>}
  */
 function arrayConcat(lhs, rhs) {
