@@ -11,7 +11,7 @@
 	{[ const fullTokenName = arrayJoin(fullTokenPath, " ").snakecased() /]}
 	{[ if (stringToken.description && stringToken.description !== "") ]}
     <!--
-{{ createDocumentationComment(stringToken.description, "") }}
+{{ indentMultilineText(stringToken.description, "") }}
     -->
 	{[/]}
 var {{ fullTokenName }} = "{[ inject "export_string_value" context stringToken.value /]}"
