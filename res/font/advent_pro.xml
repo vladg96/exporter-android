@@ -6,5 +6,10 @@
         app:fontWeight="700"
         app:font="@font/advent_pro_bold" />
 
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/advent_pro_regular" />
+
 </font-family>    
 
