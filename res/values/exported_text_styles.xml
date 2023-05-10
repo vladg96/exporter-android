@@ -84,7 +84,31 @@
         <item name="android:fontFamily">@font/advent_pro_bold</item>
         <item name="android:textStyle">normal</item>
     </style>
+    
+    <!-- 
+        typewriter font test 
+    -->
+    <style name="ImpactLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/impact_label_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    
+    <!-- 
+        importing test 
+    -->
+    <style name="Poppins">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
 
 </resources>
+  
+
+  
+
   
 
