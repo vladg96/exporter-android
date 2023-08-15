@@ -2,6 +2,7 @@
 <resources>
     <color name="new_style">#ff0e2a21</color>
     <color name="dark_blue">#ff9d1d79</color>
+    <color name="test_token">#ffffffff</color>
 
 
     <color name="semantic_primary_primary_active_background">#ff453e96</color>
