@@ -3,13 +3,13 @@
 
     <font
         app:fontStyle="normal"
-        app:fontWeight="700"
-        app:font="@font/advent_pro_bold" />
+        app:fontWeight="400"
+        app:font="@font/advent_pro_700" />
 
     <font
         app:fontStyle="normal"
         app:fontWeight="400"
-        app:font="@font/advent_pro_regular" />
+        app:font="@font/advent_pro_400" />
 
 </font-family>    
 
