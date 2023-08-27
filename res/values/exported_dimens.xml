@@ -2,7 +2,7 @@
 <resources>
  
 
-    <dimen name="dimension_measure_example">200dp</dimen> 
+    <dimen name="measure_example">200dp</dimen> 
  
  
  
@@ -12,9 +12,9 @@
  
  
 
-    <dimen name="border_radius_radius_1">4dp</dimen>
-    <dimen name="border_radius_radius_2">58dp</dimen>
-    <dimen name="border_radius_radius_3">4dp</dimen> 
+    <dimen name="radius_1">4dp</dimen>
+    <dimen name="radius_2">58dp</dimen>
+    <dimen name="radius_3">4dp</dimen> 
  
  
 
