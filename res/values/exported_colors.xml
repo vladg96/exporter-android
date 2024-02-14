@@ -66,21 +66,6 @@
     <color name="background_disabled_faded">#05141a2b</color>
     <color name="background_focus_highlight">#ffd0e2ff</color>
 
-    <color name="border_neutral">#ffc7cddb</color>
-    <color name="border_neutral_faded">#ffeceef3</color>
-    <color name="border_primary">#ff004ee1</color>
-    <color name="border_primary_faded">#ffd0e2ff</color>
-    <color name="border_critical">#ffcb101d</color>
-    <color name="border_critical_faded">#fffbd5d8</color>
-    <color name="border_warning">#ffb53c0a</color>
-    <color name="border_warning_faded">#fffbe5c5</color>
-    <color name="border_positive">#ff05751f</color>
-    <color name="border_positive_faded">#ffcdedd5</color>
-    <color name="border_upgrade">#ff6a2bbf</color>
-    <color name="border_upgrade_faded">#ffe3dbfa</color>
-    <color name="border_disabled">#ffdfe2ea</color>
-    <color name="border_focus">#ff4589ff</color>
-
     <color name="on_background_neutral">#ff14171f</color>
     <color name="on_background_primary">#ffffffff</color>
     <color name="on_background_critical">#ffffffff</color>
@@ -117,6 +102,21 @@
     <color name="decorative_yellow_background">#fffef9c3</color>
     <color name="decorative_new_decorative">#ffffffff</color>
 
+    <color name="border_neutral">#ffc7cddb</color>
+    <color name="border_neutral_faded">#ffeceef3</color>
+    <color name="border_primary">#ff004ee1</color>
+    <color name="border_primary_faded">#ffd0e2ff</color>
+    <color name="border_critical">#ffcb101d</color>
+    <color name="border_critical_faded">#fffbd5d8</color>
+    <color name="border_warning">#ffb53c0a</color>
+    <color name="border_warning_faded">#fffbe5c5</color>
+    <color name="border_positive">#ff05751f</color>
+    <color name="border_positive_faded">#ffcdedd5</color>
+    <color name="border_upgrade">#ff6a2bbf</color>
+    <color name="border_upgrade_faded">#ffe3dbfa</color>
+    <color name="border_disabled">#ffdfe2ea</color>
+    <color name="border_focus">#ff4589ff</color>
+
 
     <!-- 
         Darkest aqua there is 
@@ -150,19 +150,6 @@
     <color name="palette_magenta_magenta_100">#fff5e4fa</color>
     <color name="palette_magenta_magenta_0">#fffcf0fe</color>
 
-    <color name="palette_teal_teal_1100">#ff0b2427</color>
-    <color name="palette_teal_teal_1000">#ff1b3e3e</color>
-    <color name="palette_teal_teal_900">#ff2a6461</color>
-    <color name="palette_teal_teal_800">#ff357a7b</color>
-    <color name="palette_teal_teal_700">#ff42948e</color>
-    <color name="palette_teal_teal_600">#ff4aa69c</color>
-    <color name="palette_teal_teal_500">#ff58c1b2</color>
-    <color name="palette_teal_teal_400">#ff6addc6</color>
-    <color name="palette_teal_teal_300">#ff97e7d5</color>
-    <color name="palette_teal_teal_200">#ffc0f0e6</color>
-    <color name="palette_teal_teal_100">#ffd5f6ef</color>
-    <color name="palette_teal_teal_0">#ffe9f8f5</color>
-
     <color name="palette_blue_blue_1100">#ff00213f</color>
     <color name="palette_blue_blue_1000">#ff18395d</color>
     <color name="palette_blue_blue_900">#ff245685</color>
@@ -191,6 +178,58 @@
     <color name="palette_yellow_yellow_200">#fffbe9a4</color>
     <color name="palette_yellow_yellow_100">#fffbeed1</color>
     <color name="palette_yellow_yellow_0">#fffef8e4</color>
+
+    <color name="palette_pink_pink_1100">#ff281821</color>
+    <color name="palette_pink_pink_1000">#ff4f1930</color>
+    <color name="palette_pink_pink_900">#ff872647</color>
+    <color name="palette_pink_pink_800">#ffa43b5b</color>
+    <color name="palette_pink_pink_700">#ffbe4466</color>
+    <color name="palette_pink_pink_600">#ffcf517c</color>
+    <color name="palette_pink_pink_500">#ffde638b</color>
+    <color name="palette_pink_pink_400">#ffee7fad</color>
+    <color name="palette_pink_pink_300">#fff19bc0</color>
+    <color name="palette_pink_pink_200">#fff4b8d4</color>
+    <color name="palette_pink_pink_100">#fff7dcea</color>
+    <color name="palette_pink_pink_0">#fffbeaf2</color>
+
+    <color name="palette_red_red_1100">#ff281212</color>
+    <color name="palette_red_red_1000">#ff641c18</color>
+    <color name="palette_red_red_900">#ff8d2d28</color>
+    <color name="palette_red_red_800">#ffb6403b</color>
+    <color name="palette_red_red_700">#ffca4b45</color>
+    <color name="palette_red_red_600">#ffdc584a</color>
+    <color name="palette_red_red_500">#ffe56a5b</color>
+    <color name="palette_red_red_400">#ffef8674</color>
+    <color name="palette_red_red_300">#fff1a193</color>
+    <color name="palette_red_red_200">#fff4bbb3</color>
+    <color name="palette_red_red_100">#fff8d7d3</color>
+    <color name="palette_red_red_0">#fffbebe9</color>
+
+    <color name="palette_purple_purple_1100">#ff1d1e36</color>
+    <color name="palette_purple_purple_1000">#ff2b2667</color>
+    <color name="palette_purple_purple_900">#ff453e96</color>
+    <color name="palette_purple_purple_800">#ff5a52b4</color>
+    <color name="palette_purple_purple_700">#ff6b62cc</color>
+    <color name="palette_purple_purple_600">#ff7d73e2</color>
+    <color name="palette_purple_purple_500">#ff8d84ed</color>
+    <color name="palette_purple_purple_400">#ff9e95ec</color>
+    <color name="palette_purple_purple_300">#ffc0c2f3</color>
+    <color name="palette_purple_purple_200">#ffd8d8f6</color>
+    <color name="palette_purple_purple_100">#ffeaeaf8</color>
+    <color name="palette_purple_purple_0">#fff2f2f8</color>
+
+    <color name="palette_teal_teal_1100">#ff0b2427</color>
+    <color name="palette_teal_teal_1000">#ff1b3e3e</color>
+    <color name="palette_teal_teal_900">#ff2a6461</color>
+    <color name="palette_teal_teal_800">#ff357a7b</color>
+    <color name="palette_teal_teal_700">#ff42948e</color>
+    <color name="palette_teal_teal_600">#ff4aa69c</color>
+    <color name="palette_teal_teal_500">#ff58c1b2</color>
+    <color name="palette_teal_teal_400">#ff6addc6</color>
+    <color name="palette_teal_teal_300">#ff97e7d5</color>
+    <color name="palette_teal_teal_200">#ffc0f0e6</color>
+    <color name="palette_teal_teal_100">#ffd5f6ef</color>
+    <color name="palette_teal_teal_0">#ffe9f8f5</color>
 
     <color name="palette_orange_orange_1100">#ff2a140f</color>
     <color name="palette_orange_orange_1000">#ff581d09</color>
@@ -234,55 +273,11 @@
     <color name="palette_green_green_100">#ffddf3d9</color>
     <color name="palette_green_green_0">#ffeef9ec</color>
 
-    <color name="palette_pink_pink_1100">#ff281821</color>
-    <color name="palette_pink_pink_1000">#ff4f1930</color>
-    <color name="palette_pink_pink_900">#ff872647</color>
-    <color name="palette_pink_pink_800">#ffa43b5b</color>
-    <color name="palette_pink_pink_700">#ffbe4466</color>
-    <color name="palette_pink_pink_600">#ffcf517c</color>
-    <color name="palette_pink_pink_500">#ffde638b</color>
-    <color name="palette_pink_pink_400">#ffee7fad</color>
-    <color name="palette_pink_pink_300">#fff19bc0</color>
-    <color name="palette_pink_pink_200">#fff4b8d4</color>
-    <color name="palette_pink_pink_100">#fff7dcea</color>
-    <color name="palette_pink_pink_0">#fffbeaf2</color>
-
-    <color name="palette_red_red_1100">#ff281212</color>
-    <color name="palette_red_red_1000">#ff641c18</color>
-    <color name="palette_red_red_900">#ff8d2d28</color>
-    <color name="palette_red_red_800">#ffb6403b</color>
-    <color name="palette_red_red_700">#ffca4b45</color>
-    <color name="palette_red_red_600">#ffdc584a</color>
-    <color name="palette_red_red_500">#ffe56a5b</color>
-    <color name="palette_red_red_400">#ffef8674</color>
-    <color name="palette_red_red_300">#fff1a193</color>
-    <color name="palette_red_red_200">#fff4bbb3</color>
-    <color name="palette_red_red_100">#fff8d7d3</color>
-    <color name="palette_red_red_0">#fffbebe9</color>
-
-    <color name="palette_purple_purple_1100">#ff1d1e36</color>
-    <color name="palette_purple_purple_1000">#ff2b2667</color>
-    <color name="palette_purple_purple_900">#ff453e96</color>
-    <color name="palette_purple_purple_800">#ff5a52b4</color>
-    <color name="palette_purple_purple_700">#ff6b62cc</color>
-    <color name="palette_purple_purple_600">#ff7d73e2</color>
-    <color name="palette_purple_purple_500">#ff8d84ed</color>
-    <color name="palette_purple_purple_400">#ff9e95ec</color>
-    <color name="palette_purple_purple_300">#ffc0c2f3</color>
-    <color name="palette_purple_purple_200">#ffd8d8f6</color>
-    <color name="palette_purple_purple_100">#ffeaeaf8</color>
-    <color name="palette_purple_purple_0">#fff2f2f8</color>
-
 
     <color name="semantic_opportunity_opportunity_color">#ff357a7b</color>
     <color name="semantic_opportunity_opportunity_icon">#ff357a7b</color>
     <color name="semantic_opportunity_opportunity_border">#ff6addc6</color>
     <color name="semantic_opportunity_opportunity_background">#ffd5f6ef</color>
-
-    <color name="semantic_text_text_inverse">#ffffffff</color>
-    <color name="semantic_text_text_subtext">#ff545e5f</color>
-    <color name="semantic_text_text_headline">#ff293333</color>
-    <color name="semantic_text_text_body">#ff384141</color>
 
     <color name="semantic_success_success_color">#ff2d6944</color>
     <color name="semantic_success_success_icon">#ff3c884d</color>
@@ -304,11 +299,6 @@
     <color name="semantic_error_error_border">#ffef8674</color>
     <color name="semantic_error_error_background">#fff8d7d3</color>
 
-    <color name="semantic_sale_sale_70_background">#ffac7d13</color>
-    <color name="semantic_sale_sale_50_background">#ffb51d4e</color>
-    <color name="semantic_sale_sale_30_background">#ff5869c1</color>
-    <color name="semantic_sale_sale_color">#ffb7b7b7</color>
-
     <color name="semantic_primary_primary_active_background">#ff453e96</color>
     <color name="semantic_primary_primary_hover_background">#ff5a52b4</color>
     <color name="semantic_primary_primary_hover_color">#ffffffff</color>
@@ -317,6 +307,16 @@
     <color name="semantic_primary_primary_innactive_background">#ffd8d8f6</color>
     <color name="semantic_primary_primary_border">#ff6b62cc</color>
     <color name="semantic_primary_hover_innactive_background">#ffc0c2f3</color>
+
+    <color name="semantic_text_text_inverse">#ffffffff</color>
+    <color name="semantic_text_text_subtext">#ff545e5f</color>
+    <color name="semantic_text_text_headline">#ff293333</color>
+    <color name="semantic_text_text_body">#ff384141</color>
+
+    <color name="semantic_sale_sale_70_background">#ffac7d13</color>
+    <color name="semantic_sale_sale_50_background">#ffb51d4e</color>
+    <color name="semantic_sale_sale_30_background">#ff5869c1</color>
+    <color name="semantic_sale_sale_color">#ffb7b7b7</color>
 
 
 </resources>
