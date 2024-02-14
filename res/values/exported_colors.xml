@@ -2,6 +2,7 @@
 <resources>
     <color name="new_style">#ff0e2a21</color>
     <color name="token_1">#ffffffff</color>
+    <color name="token_2">#ffffffff</color>
     <color name="dark_blue">#ffff0000</color>
     <color name="neutral_900">#ff14171f</color>
     <color name="primary_200">#ffedf5ff</color>
@@ -116,19 +117,6 @@
     <color name="decorative_yellow_background">#fffef9c3</color>
     <color name="decorative_new_decorative">#ffffffff</color>
 
-
-    <color name="palette_purple_purple_1100">#ff1d1e36</color>
-    <color name="palette_purple_purple_1000">#ff2b2667</color>
-    <color name="palette_purple_purple_900">#ff453e96</color>
-    <color name="palette_purple_purple_800">#ff5a52b4</color>
-    <color name="palette_purple_purple_700">#ff6b62cc</color>
-    <color name="palette_purple_purple_600">#ff7d73e2</color>
-    <color name="palette_purple_purple_500">#ff8d84ed</color>
-    <color name="palette_purple_purple_400">#ff9e95ec</color>
-    <color name="palette_purple_purple_300">#ffc0c2f3</color>
-    <color name="palette_purple_purple_200">#ffd8d8f6</color>
-    <color name="palette_purple_purple_100">#ffeaeaf8</color>
-    <color name="palette_purple_purple_0">#fff2f2f8</color>
 
     <!-- 
         Darkest aqua there is 
@@ -271,6 +259,19 @@
     <color name="palette_red_red_200">#fff4bbb3</color>
     <color name="palette_red_red_100">#fff8d7d3</color>
     <color name="palette_red_red_0">#fffbebe9</color>
+
+    <color name="palette_purple_purple_1100">#ff1d1e36</color>
+    <color name="palette_purple_purple_1000">#ff2b2667</color>
+    <color name="palette_purple_purple_900">#ff453e96</color>
+    <color name="palette_purple_purple_800">#ff5a52b4</color>
+    <color name="palette_purple_purple_700">#ff6b62cc</color>
+    <color name="palette_purple_purple_600">#ff7d73e2</color>
+    <color name="palette_purple_purple_500">#ff8d84ed</color>
+    <color name="palette_purple_purple_400">#ff9e95ec</color>
+    <color name="palette_purple_purple_300">#ffc0c2f3</color>
+    <color name="palette_purple_purple_200">#ffd8d8f6</color>
+    <color name="palette_purple_purple_100">#ffeaeaf8</color>
+    <color name="palette_purple_purple_0">#fff2f2f8</color>
 
 
     <color name="semantic_opportunity_opportunity_color">#ff357a7b</color>
